@@ -1,0 +1,298 @@
+[
+  {
+    "id": "review-0001",
+    "flavorId": "monstera-original",
+    "reviewerId": "user-001",
+    "rating": 5,
+    "comment": "Absolutely love the Monstera Original! The bright citrus notes are perfectly balanced with the creamy base. It's my go-to flavor for any occasion.",
+    "date": "2026-03-02"
+  },
+  {
+    "id": "review-0002",
+    "flavorId": "half-moon",
+    "reviewerId": "user-002",
+    "rating": 4,
+    "comment": "The Half Moon is a delightful blend of lemon and lime with a creamy twist. It's refreshing and perfect for summer days, though I wish it had a bit more tartness.",
+    "date": "2026-03-03"
+  },
+  {
+    "id": "review-0003",
+    "flavorId": "peach-princess",
+    "reviewerId": "user-003",
+    "rating": 5,
+    "comment": "Peach Princess is like biting into a sun-ripened peach on a hot day. The sweetness is just right, and the fragrance is heavenly. A must-try for peach lovers!",
+    "date": "2026-03-04"
+  },
+  {
+    "id": "review-0004",
+    "flavorId": "watermelon",
+    "reviewerId": "user-004",
+    "rating": 3,
+    "comment": "The Watermelon flavor is decent, but it doesn't quite capture the juicy, ice-cold watermelon taste I was hoping for. It's refreshing, but not my favorite.",
+    "date": "2026-03-05"
+  },
+  {
+    "id": "review-0005",
+    "flavorId": "chai-constellation",
+    "reviewerId": "user-005",
+    "rating": 4,
+    "comment": "Chai Constellation is a cozy blend of warming spices that makes me feel like I'm wrapped in a blanket on a chilly day. It's rich and flavorful, though I find it a bit too sweet for my taste.",
+    "date": "2026-03-06"
+  },
+  {
+    "id": "review-0006",
+    "flavorId": "peru-passion",
+    "reviewerId": "user-006",
+    "rating": 5,
+    "comment": "Peru Passion is a bold and fruity flavor that takes me on a tropical getaway with every sip. The passion fruit is vibrant and has a complex finish that keeps me coming back for more.",
+    "date": "2026-03-07"
+  },
+  {
+    "id": "review-0007",
+    "flavorId": "bae-root",
+    "reviewerId": "user-007",
+    "rating": 4,
+    "comment": "Bae Root is a unique and refreshing blend of bright anise, zesty lemon, and warm ginger. It's bold and herbal, making it a great choice for those looking for something different.",
+    "date": "2026-03-08"
+  },
+  {
+    "id": "review-0008",
+    "flavorId": "date-night-special",
+    "reviewerId": "user-008",
+    "rating": 5,
+    "comment": "Date Night Special is the perfect blend of rich chocolate and smooth vanilla. It's indulgent without being overpowering, making it an ideal treat for a romantic evening.",
+    "date": "2026-03-09"
+  },
+  {
+    "id": "review-0009",
+    "flavorId": "monstera-original",
+    "reviewerId": "user-009",
+    "rating": 4,
+    "comment": "Monstera Original is a solid flavor with a nice balance of citrus and cream. It's refreshing and easy to drink, though I wish it had a bit more depth in the flavor profile.",
+    "date": "2026-03-10"
+  },
+  {
+    "id": "review-0010",
+    "flavorId": "half-moon",
+    "reviewerId": "user-010",
+    "rating": 5,
+    "comment": "Half Moon is a fantastic blend of lemon and lime with a creamy finish. It's perfectly balanced and incredibly refreshing, making it one of my favorite flavors.",
+    "date": "2026-03-11"
+  },
+  {
+    "id": "review-0011",
+    "flavorId": "peach-princess",
+    "reviewerId": "user-011",
+    "rating": 4,
+    "comment": "Peach Princess is a delightful flavor with a nice balance of sweetness and tartness. The peach flavor is prominent and refreshing, though I wish it had a bit more complexity.",
+    "date": "2026-03-12"
+  },
+  {
+    "id": "review-0012",
+    "flavorId": "watermelon",
+    "reviewerId": "user-012",
+    "rating": 5,
+    "comment": "Watermelon is pure summer in a can! The juicy, ice-cold watermelon flavor is exactly what I remember from my childhood. It's incredibly refreshing and perfect for hot days.",
+    "date": "2026-03-13"
+  },
+  {
+    "id": "review-0013",
+    "flavorId": "chai-constellation",
+    "reviewerId": "user-013",
+    "rating": 4,
+    "comment": "Chai Constellation is a cozy and flavorful blend of spices that makes me feel warm and comforted. It's rich and delicious, though I find it a bit too sweet for my liking.",
+    "date": "2026-03-14"
+  },
+  {
+    "id": "review-0014",
+    "flavorId": "monstera-original",
+    "reviewerId": "user-014",
+    "rating": 5,
+    "comment": "I keep coming back to Monstera Original. There's something so clean and effortless about it — the mango hint is subtle but unmistakable. It's the one I always have stocked.",
+    "date": "2026-03-15"
+  },
+  {
+    "id": "review-0015",
+    "flavorId": "monstera-original",
+    "reviewerId": "user-015",
+    "rating": 3,
+    "comment": "Monstera Original is fine, but I expected something more tropical. The citrus is nice, though the mango note feels pretty faint. Still a solid everyday drink.",
+    "date": "2026-03-16"
+  },
+  {
+    "id": "review-0016",
+    "flavorId": "monstera-original",
+    "reviewerId": "user-016",
+    "rating": 4,
+    "comment": "Really smooth and easy to drink. The tropical notes are light without being overwhelming. Great for people who want something refreshing but not too bold.",
+    "date": "2026-03-17"
+  },
+  {
+    "id": "review-0017",
+    "flavorId": "half-moon",
+    "reviewerId": "user-017",
+    "rating": 5,
+    "comment": "Half Moon nailed the balance. The lemon-lime is bright without being sour and the cream rounds it out beautifully. Reminds me of a creamsicle but way more refined.",
+    "date": "2026-03-18"
+  },
+  {
+    "id": "review-0018",
+    "flavorId": "half-moon",
+    "reviewerId": "user-018",
+    "rating": 3,
+    "comment": "The concept is interesting but the cream flavor gets a little lost for me. The citrus dominates and the two halves don't quite feel like they blend. Still drinkable though.",
+    "date": "2026-03-19"
+  },
+  {
+    "id": "review-0019",
+    "flavorId": "half-moon",
+    "reviewerId": "user-019",
+    "rating": 4,
+    "comment": "Half Moon is my go-to afternoon treat. The lemon-lime sharpness cuts through perfectly and the creamy finish makes it feel indulgent. Would give 5 stars if the cream were just a touch more prominent.",
+    "date": "2026-03-20"
+  },
+  {
+    "id": "review-0020",
+    "flavorId": "peach-princess",
+    "reviewerId": "user-020",
+    "rating": 5,
+    "comment": "Peach Princess is genuinely one of the best fruit flavors I've had. It tastes like real peach — fragrant and slightly tart — not the artificial stuff. Seasonal, so I stock up whenever it's available.",
+    "date": "2026-03-21"
+  },
+  {
+    "id": "review-0021",
+    "flavorId": "peach-princess",
+    "reviewerId": "user-021",
+    "rating": 3,
+    "comment": "It's a good peach flavor but leans a bit sweet for me. I appreciate that it isn't artificial-tasting, I just wish it had a sharper finish to balance the sweetness.",
+    "date": "2026-03-22"
+  },
+  {
+    "id": "review-0022",
+    "flavorId": "peach-princess",
+    "reviewerId": "user-022",
+    "rating": 4,
+    "comment": "Really lovely flavor. The peach is fragrant and the tartness comes through nicely mid-sip. One of the better seasonal offerings I've tried.",
+    "date": "2026-03-23"
+  },
+  {
+    "id": "review-0023",
+    "flavorId": "watermelon",
+    "reviewerId": "user-023",
+    "rating": 4,
+    "comment": "Watermelon delivers exactly what it promises. It's bright, refreshing, and genuinely tastes like fresh watermelon. Perfect for hot days — I grabbed a case.",
+    "date": "2026-03-24"
+  },
+  {
+    "id": "review-0024",
+    "flavorId": "watermelon",
+    "reviewerId": "user-024",
+    "rating": 2,
+    "comment": "Expected more punch. The watermelon flavor is there but it's quite mild and fades fast. I like a bolder fruit flavor, so this one missed for me.",
+    "date": "2026-03-25"
+  },
+  {
+    "id": "review-0025",
+    "flavorId": "watermelon",
+    "reviewerId": "user-025",
+    "rating": 4,
+    "comment": "Classic summer taste done well. Not as intense as biting into actual watermelon but that's fine — it's light and crushable on a hot afternoon.",
+    "date": "2026-03-26"
+  },
+  {
+    "id": "review-0026",
+    "flavorId": "chai-constellation",
+    "reviewerId": "user-026",
+    "rating": 5,
+    "comment": "Chai Constellation is everything I want in a cozy drink. The cardamom and cinnamon hit immediately, with the ginger warming things up at the finish. My winter staple.",
+    "date": "2026-03-27"
+  },
+  {
+    "id": "review-0027",
+    "flavorId": "chai-constellation",
+    "reviewerId": "user-027",
+    "rating": 3,
+    "comment": "The spices are spot on but I wish the dairy base were lighter. It sits a little heavy for me as a mid-day drink. Great for evenings though.",
+    "date": "2026-03-28"
+  },
+  {
+    "id": "review-0028",
+    "flavorId": "chai-constellation",
+    "reviewerId": "user-028",
+    "rating": 4,
+    "comment": "Really impressed with how authentic the chai flavor is. The ginger has a nice kick without being overpowering. Would love a lighter version but this is excellent as-is.",
+    "date": "2026-03-29"
+  },
+  {
+    "id": "review-0029",
+    "flavorId": "peru-passion",
+    "reviewerId": "user-029",
+    "rating": 4,
+    "comment": "Peru Passion is bold and funky in the best way. The passion fruit tartness is front and center and the finish has real complexity. This one's for people who like an adventurous sip.",
+    "date": "2026-03-30"
+  },
+  {
+    "id": "review-0030",
+    "flavorId": "peru-passion",
+    "reviewerId": "user-030",
+    "rating": 3,
+    "comment": "The passion fruit flavor is strong — maybe a little too strong for me. I appreciate the boldness but it gets a bit much by the end of a can. Good for flavor fans though.",
+    "date": "2026-03-31"
+  },
+  {
+    "id": "review-0031",
+    "flavorId": "peru-passion",
+    "reviewerId": "user-031",
+    "rating": 5,
+    "comment": "Finally a limited edition that actually delivers. Peru Passion has a depth I haven't found in other fruit drinks — the finish is almost wine-like. Hoping this becomes permanent.",
+    "date": "2026-04-01"
+  },
+  {
+    "id": "review-0032",
+    "flavorId": "peru-passion",
+    "reviewerId": "user-032",
+    "rating": 4,
+    "comment": "Vibrant and bright with a nice tropical depth. The passion fruit is clearly the star and the finish has a subtle complexity that makes it really interesting.",
+    "date": "2026-04-02"
+  },
+  {
+    "id": "review-0033",
+    "flavorId": "bae-root",
+    "reviewerId": "user-033",
+    "rating": 5,
+    "comment": "Bae Root is unlike anything else in the lineup. The anise and ginger combo sounds weird but it just works — herbal, zingy, and totally refreshing. My new favorite.",
+    "date": "2026-04-03"
+  },
+  {
+    "id": "review-0034",
+    "flavorId": "bae-root",
+    "reviewerId": "user-034",
+    "rating": 2,
+    "comment": "Not for me. The anise is really dominant and I find licorice flavor off-putting. I get why people love it but I can't get past the anise.",
+    "date": "2026-04-04"
+  },
+  {
+    "id": "review-0035",
+    "flavorId": "bae-root",
+    "reviewerId": "user-035",
+    "rating": 4,
+    "comment": "Really interesting flavor profile. The lemon keeps the anise from being too heavy and the ginger finish is satisfying. It grows on you — I wasn't sure at first but I'm a convert.",
+    "date": "2026-04-05"
+  },
+  {
+    "id": "review-0036",
+    "flavorId": "bae-root",
+    "reviewerId": "user-036",
+    "rating": 5,
+    "comment": "Herbaceous, bright, and totally unique. Bae Root tastes like something a craft cocktail bar would serve. The ginger and lemon balance the anise perfectly.",
+    "date": "2026-04-06"
+  },
+  {
+    "id": "review-0037",
+    "flavorId": "date-night-special",
+    "reviewerId": "user-037",
+    "rating": 4,
+    "comment": "Date Night Special is rich and luxurious — the date and fig notes are front and center with a gorgeous vanilla finish. It's decadent without being too sweet. A special treat.",
+    "date": "2026-04-07"
+  }
+]

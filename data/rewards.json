@@ -1,0 +1,20 @@
+[
+  {
+    "id": "reward-free-can",
+    "threshold": 100,
+    "label": "Free Can",
+    "description": "Redeem 100 points for one free can of your choice."
+  },
+  {
+    "id": "reward-free-4pack",
+    "threshold": 350,
+    "label": "Free 4-Pack",
+    "description": "Redeem 350 points for a free 4-pack of your choice."
+  },
+  {
+    "id": "reward-free-6pack",
+    "threshold": 500,
+    "label": "Free 6-Pack",
+    "description": "Redeem 500 points for a free 6-pack of your choice."
+  }
+]

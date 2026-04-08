@@ -1,0 +1,66 @@
+[
+  {
+    "id": "monstera-original",
+    "name": "Monstera Original",
+    "description": "The one that started it all. Crisp, clean, and lightly tropical with just a hint of mango — our signature flavor done the original way.",
+    "tags": ["Year Round", "Dairy-Free"],
+    "calories": 100,
+    "imageUri": "@/assets/img/flavors/monstera-original.png"
+  },
+  {
+    "id": "half-moon",
+    "name": "Half Moon",
+    "description": "A perfectly balanced half-and-half of bright lemon/lime citrus and mellow cream. Two sides, one unforgettable flavor.",
+    "tags": ["Seasonal"],
+    "calories": 110,
+    "imageUri": "@/assets/img/flavors/half-moon.png"
+  },
+  {
+    "id": "peach-princess",
+    "name": "Peach Princess",
+    "description": "Sun-ripened peaches blended into something royally refreshing. Sweet, fragrant, and just tart enough.",
+    "tags": ["Seasonal", "Fan Favorite", "Dairy-Free"],
+    "calories": 115,
+    "imageUri": "@/assets/img/flavors/peach-princess.png"
+  },
+  {
+    "id": "watermelon",
+    "name": "Watermelon",
+    "description": "Pure summer in a can. Juicy, ice-cold watermelon flavor that hits exactly like you remember it.",
+    "tags": ["Seasonal", "Dairy-Free"],
+    "calories": 90,
+    "imageUri": "@/assets/img/flavors/watermelon.png"
+  },
+  {
+    "id": "chai-constellation",
+    "name": "Chai Constellation",
+    "description": "Warming spices — cardamom, cinnamon, ginger — swirled into a rich, starry chai. Cozy in every sip.",
+    "tags": ["Year Round", "Contains Dairy"],
+    "calories": 165,
+    "imageUri": "@/assets/img/flavors/chai-constellation.png"
+  },
+  {
+    "id": "peru-passion",
+    "name": "Peru Passion",
+    "description": "Inspired by the bold, fruity flavors of Peru — bright passion fruit with a deep, complex finish.",
+    "tags": ["Limited Edition"],
+    "calories": 125,
+    "imageUri": "@/assets/img/flavors/peru-passion.png"
+  },
+  {
+    "id": "bae-root",
+    "name": "Bae Root",
+    "description": "Bright anise and zesty lemon up front, with a warm ginger finish. Bold, herbal, and surprisingly refreshing.",
+    "tags": ["Year Round", "Fan Favorite"],
+    "calories": 130,
+    "imageUri": "@/assets/img/flavors/bae-root.png"
+  },
+  {
+    "id": "date-night-special",
+    "name": "Date Night Special",
+    "description": "Lush medjool dates, ripe figs, and deep plum with a whisper of vanilla. Rich, velvety, and made for an evening in.",
+    "tags": ["Limited Edition", "Fan Favorite"],
+    "calories": 190,
+    "imageUri": "@/assets/img/flavors/date-night-special.png"
+  }
+]

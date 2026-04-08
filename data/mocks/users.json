@@ -1,0 +1,177 @@
+{
+  "activeUserId": "user-001",
+  "users": [
+    {
+      "id": "user-001",
+      "name": "Alex Rivera",
+      "email": "alex@example.com",
+      "rewards": {
+        "pointsBalance": 340,
+        "history": [
+          {
+            "type": "earned",
+            "points": 100,
+            "description": "Purchase: Peach Princess × 2",
+            "date": "2026-03-15"
+          },
+          {
+            "type": "earned",
+            "points": 50,
+            "description": "Purchase: Peach Princess × 1",
+            "date": "2026-02-28"
+          },
+          {
+            "type": "redeemed",
+            "points": -200,
+            "description": "Reward redeemed: $2 off",
+            "date": "2026-02-20"
+          },
+          {
+            "type": "earned",
+            "points": 90,
+            "description": "Purchase: Peach Princess 4-Pack × 1",
+            "date": "2026-02-01"
+          },
+          {
+            "type": "earned",
+            "points": 50,
+            "description": "Purchase: Monstera Original × 1",
+            "date": "2026-01-10"
+          },
+          {
+            "type": "earned",
+            "points": 250,
+            "description": "Welcome bonus",
+            "date": "2026-01-05"
+          }
+        ]
+      },
+      "purchaseHistory": [
+        {
+          "itemId": "peach-princess-can",
+          "quantity": 2,
+          "orderedAt": "2026-03-15",
+          "pointsEarned": 100
+        },
+        {
+          "itemId": "peach-princess-can",
+          "quantity": 1,
+          "orderedAt": "2026-02-28",
+          "pointsEarned": 50
+        },
+        {
+          "itemId": "peach-princess-4pack",
+          "quantity": 1,
+          "orderedAt": "2026-02-01",
+          "pointsEarned": 90
+        },
+        {
+          "itemId": "monstera-original-can",
+          "quantity": 1,
+          "orderedAt": "2026-01-10",
+          "pointsEarned": 50
+        }
+      ],
+      "favorites": [
+        "monstera-original",
+        "peach-princess",
+        "watermelon"
+      ],
+      "settings": {
+        "newsletterSubscribed": true,
+        "notificationsEnabled": true,
+        "location": {
+          "city": "Los Angeles",
+          "state": "CA",
+          "country": "USA",
+          "postalCode": "90001"
+        },
+        "wallet": {
+          "walletLinked": true,
+          "cardOnFile": [
+            {
+              "brand": "Visa",
+              "last4": "4242",
+              "expiry": "12/26",
+              "nickname": "Work Card",
+              "isDefault": true
+            },
+            {
+              "brand": "Mastercard",
+              "last4": "5555",
+              "expiry": "11/25",
+              "nickname": "Personal Card",
+              "isDefault": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "user-002",
+      "name": "Jordan Kim",
+      "email": "jordan@example.com",
+      "rewards": {
+        "pointsBalance": 50,
+        "history": [
+          {
+            "type": "earned",
+            "points": 50,
+            "description": "Purchase: Monstera Original × 1",
+            "date": "2026-03-01"
+          }
+        ]
+      },
+      "purchaseHistory": [
+        {
+          "itemId": "monstera-original-can",
+          "quantity": 1,
+          "orderedAt": "2026-03-01",
+          "pointsEarned": 50
+        }
+      ],
+      "favorites": [
+        "monstera-original"
+      ],
+      "settings": {
+        "newsletterSubscribed": false,
+        "notificationsEnabled": true,
+        "location": {
+          "city": "Austin",
+          "state": "TX",
+          "country": "USA",
+          "postalCode": "73301"
+        },
+        "wallet": {
+          "walletLinked": false,
+          "cardOnFile": []
+        }
+      }
+    },
+    {
+      "id": "user-anon",
+      "name": "Guest #2847",
+      "email": "",
+      "rewards": {
+        "pointsBalance": 0,
+        "history": []
+      },
+      "purchaseHistory": [],
+      "favorites": [],
+      "settings": {
+        "newsletterSubscribed": false,
+        "notificationsEnabled": false,
+        "location": {
+          "city": "",
+          "state": "",
+          "country": "",
+          "postalCode": ""
+        },
+        "wallet": {
+          "walletLinked": false,
+          "cardOnFile": []
+        }
+      }
+    }
+  ]
+}

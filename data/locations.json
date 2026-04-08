@@ -1,0 +1,107 @@
+[
+  {
+    "id": "1",
+    "name": "Downtown SF",
+    "address": "123 Market St, San Francisco, CA 94105",
+    "latitude": 37.7946,
+    "longitude": -122.3999
+  },
+  {
+    "id": "2",
+    "name": "Mission District",
+    "address": "456 Valencia St, San Francisco, CA 94110",
+    "latitude": 37.7599,
+    "longitude": -122.4148
+  },
+  {
+    "id": "3",
+    "name": "Castro",
+    "address": "789 Market St, San Francisco, CA 94114",
+    "latitude": 37.7609,
+    "longitude": -122.4350
+  },
+  {
+    "id": "4",
+    "name": "North Beach",
+    "address": "321 Columbus Ave, San Francisco, CA 94133",
+    "latitude": 37.8060,
+    "longitude": -122.4103
+  },
+  {
+    "id": "5",
+    "name": "Oakland Downtown",
+    "address": "500 Broadway, Oakland, CA 94607",
+    "latitude": 37.8044,
+    "longitude": -122.2712
+  },
+  {
+    "id": "6",
+    "name": "Berkeley",
+    "address": "2100 Shattuck Ave, Berkeley, CA 94704",
+    "latitude": 37.8716,
+    "longitude": -122.2727
+  },
+  {
+    "id": "7",
+    "name": "San Jose Downtown",
+    "address": "150 S First St, San Jose, CA 95113",
+    "latitude": 37.3382,
+    "longitude": -121.8863
+  },
+  {
+    "id": "8",
+    "name": "Palo Alto",
+    "address": "340 University Ave, Palo Alto, CA 94301",
+    "latitude": 37.4419,
+    "longitude": -122.1430
+  },
+  {
+    "id": "9",
+    "name": "Midtown Manhattan",
+    "address": "500 Fifth Ave, New York, NY 10110",
+    "latitude": 40.7549,
+    "longitude": -73.9840
+  },
+  {
+    "id": "10",
+    "name": "Brooklyn Heights",
+    "address": "100 Montague St, Brooklyn, NY 11201",
+    "latitude": 40.6958,
+    "longitude": -73.9942
+  },
+  {
+    "id": "11",
+    "name": "Williamsburg",
+    "address": "265 Bedford Ave, Brooklyn, NY 11211",
+    "latitude": 40.7141,
+    "longitude": -73.9574
+  },
+  {
+    "id": "12",
+    "name": "Chicago Loop",
+    "address": "233 S Wacker Dr, Chicago, IL 60606",
+    "latitude": 41.8789,
+    "longitude": -87.6359
+  },
+  {
+    "id": "13",
+    "name": "Lincoln Park",
+    "address": "900 W Armitage Ave, Chicago, IL 60614",
+    "latitude": 41.9182,
+    "longitude": -87.6545
+  },
+  {
+    "id": "14",
+    "name": "Wicker Park",
+    "address": "1572 N Milwaukee Ave, Chicago, IL 60622",
+    "latitude": 41.9088,
+    "longitude": -87.6785
+  },
+  {
+    "id": "15",
+    "name": "Nashville",
+    "address": "301 Broadway, Nashville, TN 37201",
+    "latitude": 36.1590,
+    "longitude": -86.7785
+  }
+]

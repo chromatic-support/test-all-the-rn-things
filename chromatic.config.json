@@ -1,0 +1,8 @@
+{
+  "$schema": "https://www.chromatic.com/config-file.schema.json",
+  "projectId": "69d6c62d8d81dd1993aed5dc",
+  "_comment": "TODO: generate a new project token to replace the one below once CI workflow is in place ↓",
+  "projectToken": "chpt_6554038e325e4ad",
+  "storybookBuildDir": "storybook-static",
+  "debug": true
+}

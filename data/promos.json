@@ -1,0 +1,18 @@
+[
+  {
+    "id": "promo-date-night-special-30off",
+    "flavorId": "date-night-special",
+    "title": "Date Night Special",
+    "description": "For a limited time, save 30% on every size of our premium Date Night Special.",
+    "discountPercent": 30,
+    "calloutLabel": "Limited time - 30% off",
+    "imageUri": "@/assets/img/marketing/too-many-habibis.png",
+    "applicableItems": [
+      { "itemId": "date-night-special-can", "salePrice": 4.19 },
+      { "itemId": "date-night-special-4pack", "salePrice": 14.69 },
+      { "itemId": "date-night-special-6pack", "salePrice": 20.99 }
+    ],
+    "startDate": "2026-03-28",
+    "endDate": "2026-04-11"
+  }
+]

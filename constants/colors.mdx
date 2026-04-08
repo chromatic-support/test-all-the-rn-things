@@ -1,0 +1,223 @@
+import { Meta, ColorPalette, ColorItem } from "@storybook/addon-docs/blocks";
+
+<Meta title="Styles/Colors" />
+
+# Color Palette
+
+This document showcases the color system used throughout the application.
+
+## Base Colors
+
+<ColorPalette>
+  <ColorItem
+    title="Peach"
+    subtitle="Primary warm tone"
+    colors={{
+      peach: "#F89980",
+      "peach-light": "#FFBAA8",
+      "peach-dark": "#E67858",
+    }}
+  />
+  <ColorItem
+    title="Mint"
+    subtitle="Fresh green"
+    colors={{
+      mint: "#B6FBAB",
+      "mint-light": "#D4FDC9",
+      "mint-dark": "#98E883",
+    }}
+  />
+  <ColorItem
+    title="Lilac"
+    subtitle="Purple accent"
+    colors={{
+      lilac: "#E2ABFB",
+      "lilac-light": "#F0C9FD",
+      "lilac-dark": "#D089E8",
+    }}
+  />
+  <ColorItem
+    title="Sky"
+    subtitle="Blue accent"
+    colors={{
+      sky: "#ABD9FB",
+      "sky-light": "#C9E8FD",
+      "sky-dark": "#89C0E8",
+    }}
+  />
+  <ColorItem
+    title="Lemon"
+    subtitle="Yellow accent"
+    colors={{
+      lemon: "#FDFAAB",
+      "lemon-light": "#FFFDC9",
+      "lemon-dark": "#EBE789",
+    }}
+  />
+  <ColorItem
+    title="Coral"
+    subtitle="Pink-red accent"
+    colors={{
+      coral: "#FB9DAB",
+      "coral-light": "#FFBBC9",
+      "coral-dark": "#E87B89",
+    }}
+  />
+</ColorPalette>
+
+## Extended Colors
+
+<ColorPalette>
+  <ColorItem
+    title="Aqua"
+    subtitle="Cyan accent"
+    colors={{
+      aqua: "#ABF5FB",
+      "aqua-light": "#C9F9FD",
+      "aqua-dark": "#89E2E8",
+    }}
+  />
+  <ColorItem
+    title="Rose"
+    subtitle="Pink accent"
+    colors={{
+      rose: "#FBABCA",
+      "rose-light": "#FFC9E8",
+      "rose-dark": "#E889B2",
+    }}
+  />
+  <ColorItem
+    title="Lavender"
+    subtitle="Light purple"
+    colors={{
+      lavender: "#D4ABFB",
+      "lavender-light": "#E8C9FD",
+      "lavender-dark": "#BC89E8",
+    }}
+  />
+  <ColorItem
+    title="Butter"
+    subtitle="Warm yellow"
+    colors={{
+      butter: "#FBE9AB",
+      "butter-light": "#FFF4C9",
+      "butter-dark": "#E8D689",
+    }}
+  />
+  <ColorItem
+    title="Sage"
+    subtitle="Muted green"
+    colors={{
+      sage: "#C3FBAB",
+      "sage-light": "#DDFDC9",
+      "sage-dark": "#ABE889",
+    }}
+  />
+</ColorPalette>
+
+## Neutrals
+
+<ColorPalette>
+  <ColorItem
+    title="Grayscale"
+    subtitle="Base neutrals"
+    colors={{
+      white: "#ffffff",
+      "gray-50": "#f9fafb",
+      "gray-100": "#f3f4f6",
+      "gray-200": "#e5e7eb",
+      "gray-300": "#d1d5db",
+      "gray-400": "#9ca3af",
+      "gray-500": "#6b7280",
+      "gray-600": "#4b5563",
+      "gray-700": "#374151",
+      "gray-800": "#1f2937",
+      "gray-900": "#111827",
+      slate: "#0f172a",
+      black: "#000000",
+    }}
+  />
+</ColorPalette>
+
+## Brand Colors
+
+<ColorPalette>
+  <ColorItem
+    title="Brand Colors"
+    subtitle="Peach palette"
+    colors={{
+      brand: "#F89980",
+      "brand-light": "#FFBAA8",
+      "brand-dark": "#E67858",
+    }}
+  />
+</ColorPalette>
+
+## Dark Theme
+
+Dark mode colors are defined in `Colors.dark` in [theme.ts](./theme.ts). Use the `Colors` export with React Native's `useColorScheme` hook to switch between light and dark tokens automatically.
+
+```tsx
+import { useColorScheme } from 'react-native';
+import { Colors } from '@/constants/theme';
+
+const colorScheme = useColorScheme();
+const colors = Colors[colorScheme ?? 'light'];
+```
+
+## Usage
+
+Colors are exported from [theme.ts](./theme.ts) as `Palette` (raw values) and `Colors` (semantic light/dark tokens).
+
+### Basic Usage
+
+```tsx
+import { Palette, Colors } from '@/constants/theme';
+
+// Raw palette value
+<View style={{ backgroundColor: Palette.peach }} />
+
+// Semantic token (respects light/dark mode)
+<Text style={{ color: colors.text }} />
+```
+
+### Using Grays
+
+```tsx
+<View style={{
+  backgroundColor: Palette.gray100,
+  borderColor: Palette.gray300,
+}}>
+  <Text style={{ color: Palette.gray900 }}>Card content</Text>
+</View>
+```
+
+### Using Base Colors
+
+```tsx
+<View style={{ backgroundColor: Palette.mint }}>
+  <Text style={{ color: Palette.black }}>Accent box</Text>
+</View>
+```
+
+### Using Color Variants for Depth
+
+Each base color has light and dark variants for creating visual depth and interactive states.
+
+```tsx
+// Button using color variants
+<Pressable style={({ pressed }) => ({
+  backgroundColor: pressed ? Palette.mintDark : Palette.mint,
+  borderColor: Palette.mintDark,
+  borderWidth: 2,
+})} />
+```
+
+## Best Practices
+
+1. **Prefer semantic tokens** (`Colors.light` / `Colors.dark`) over raw `Palette` values for text, backgrounds, and icons
+2. **Use raw palette values** for decorative elements and accents where light/dark distinction isn't needed
+3. **Test dark mode** by toggling the device/simulator appearance
+4. **Ensure sufficient contrast** for accessibility
+5. **Use grays** for neutral UI elements
+6. **Reserve accent colors** for important actions

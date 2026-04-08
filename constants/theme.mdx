@@ -1,0 +1,173 @@
+# Theme Documentation
+
+A comprehensive design system with typography and layout utilities for React Native.
+
+See the [Colors documentation](./?path=/docs/styles-colors--docs) for the complete color palette.
+
+---
+
+## Typography
+
+### Font Family
+
+The theme uses **Hind** as the primary font family, loaded via `@expo-google-fonts/hind`. In React Native, font weight is encoded in the loaded font name rather than a separate `fontWeight` property.
+
+| Constant                   | Loaded Font Name    | Weight |
+| -------------------------- | ------------------- | ------ |
+| `FontFamily.hindLight`     | `Hind_300Light`     | 300    |
+| `FontFamily.hindRegular`   | `Hind_400Regular`   | 400    |
+| `FontFamily.hindMedium`    | `Hind_500Medium`    | 500    |
+| `FontFamily.hindSemiBold`  | `Hind_600SemiBold`  | 600    |
+| `FontFamily.hindBold`      | `Hind_700Bold`      | 700    |
+
+Use `FontWeight` as a semantic alias over `FontFamily`:
+
+| Constant               | Maps To                    |
+| ---------------------- | -------------------------- |
+| `FontWeight.light`     | `FontFamily.hindLight`     |
+| `FontWeight.normal`    | `FontFamily.hindRegular`   |
+| `FontWeight.medium`    | `FontFamily.hindMedium`    |
+| `FontWeight.semibold`  | `FontFamily.hindSemiBold`  |
+| `FontWeight.bold`      | `FontFamily.hindBold`      |
+
+```tsx
+<Text style={{ fontFamily: FontWeight.semibold, fontSize: FontSize.lg }}>
+  Hello
+</Text>
+```
+
+### Headings
+
+Heading styles with `fontSize` (px), `fontFamily` (encodes weight), and absolute `lineHeight` (px at ratio 1.2). Spread directly into a `Text` style.
+
+| Constant      | Font Size | Font Family             | Line Height |
+| ------------- | --------- | ----------------------- | ----------- |
+| `Headings.h1` | 40        | `FontFamily.hindBold`     | 48          |
+| `Headings.h2` | 32        | `FontFamily.hindBold`     | 38          |
+| `Headings.h3` | 28        | `FontFamily.hindSemiBold` | 34          |
+| `Headings.h4` | 24        | `FontFamily.hindSemiBold` | 29          |
+| `Headings.h5` | 20        | `FontFamily.hindSemiBold` | 24          |
+| `Headings.h6` | 16        | `FontFamily.hindSemiBold` | 19          |
+
+```tsx
+<Text style={Headings.h1}>Main Heading</Text>
+<Text style={Headings.h2}>Section Heading</Text>
+<Text style={Headings.h3}>Subsection Heading</Text>
+```
+
+### Font Size
+
+| Constant        | Value (px) |
+| --------------- | ---------- |
+| `FontSize.xs`   | 12         |
+| `FontSize.sm`   | 14         |
+| `FontSize.base` | 16         |
+| `FontSize.lg`   | 18         |
+| `FontSize.xl`   | 20         |
+| `FontSize.xl2`  | 24         |
+| `FontSize.xl3`  | 30         |
+| `FontSize.xl4`  | 36         |
+| `FontSize.xl5`  | 48         |
+| `FontSize.xl6`  | 60         |
+
+### Line Height
+
+React Native requires absolute `lineHeight` values (px). Multiply a `LineHeight` multiplier by a `FontSize` value.
+
+| Constant               | Multiplier | Example at `base` (16px) |
+| ---------------------- | ---------- | ------------------------ |
+| `LineHeight.none`      | 1          | 16                       |
+| `LineHeight.tight`     | 1.25       | 20                       |
+| `LineHeight.snug`      | 1.375      | 22                       |
+| `LineHeight.normal`    | 1.5        | 24                       |
+| `LineHeight.relaxed`   | 1.625      | 26                       |
+| `LineHeight.loose`     | 2          | 32                       |
+
+```tsx
+<Text style={{
+  fontSize: FontSize.base,
+  lineHeight: LineHeight.relaxed * FontSize.base,
+}}>
+  Readable body text
+</Text>
+```
+
+### Letter Spacing
+
+React Native `letterSpacing` is in points. Multiply a `LetterSpacing` multiplier by the `fontSize` to approximate em-based spacing.
+
+| Constant                   | Multiplier | Example at `base` (16px) |
+| -------------------------- | ---------- | ------------------------ |
+| `LetterSpacing.tighter`    | -0.05      | -0.8                     |
+| `LetterSpacing.tight`      | -0.025     | -0.4                     |
+| `LetterSpacing.normal`     | 0          | 0                        |
+| `LetterSpacing.wide`       | 0.025      | 0.4                      |
+| `LetterSpacing.wider`      | 0.05       | 0.8                      |
+| `LetterSpacing.widest`     | 0.1        | 1.6                      |
+
+```tsx
+<Text style={{
+  fontSize: FontSize.xl5,
+  letterSpacing: LetterSpacing.tight * FontSize.xl5,
+}}>
+  Hero Heading
+</Text>
+```
+
+### Text Alignment
+
+| Constant            | Value      |
+| ------------------- | ---------- |
+| `TextAlign.left`    | `left`     |
+| `TextAlign.center`  | `center`   |
+| `TextAlign.right`   | `right`    |
+| `TextAlign.justify` | `justify`  |
+
+### Text Transform
+
+| Constant                   | Value        |
+| -------------------------- | ------------ |
+| `TextTransform.uppercase`  | `uppercase`  |
+| `TextTransform.lowercase`  | `lowercase`  |
+| `TextTransform.capitalize` | `capitalize` |
+| `TextTransform.none`       | `none`       |
+
+### Text Decoration
+
+Uses React Native's `textDecorationLine` property.
+
+| Constant                     | Value           |
+| ---------------------------- | --------------- |
+| `TextDecoration.underline`   | `underline`     |
+| `TextDecoration.lineThrough` | `line-through`  |
+| `TextDecoration.none`        | `none`          |
+
+---
+
+## Layout
+
+### Spacing
+
+Used for `gap`, `rowGap`, `columnGap`, `margin`, `padding`, and other spacing properties.
+
+| Constant     | Value (px) |
+| ------------ | ---------- |
+| `Spacing[0]` | 0          |
+| `Spacing[1]` | 4          |
+| `Spacing[2]` | 8          |
+| `Spacing[3]` | 12         |
+| `Spacing[4]` | 16         |
+| `Spacing[5]` | 20         |
+| `Spacing[6]` | 24         |
+| `Spacing[8]` | 32         |
+| `Spacing[10]`| 40         |
+| `Spacing[12]`| 48         |
+
+```tsx
+<View style={{ gap: Spacing[4] }}>
+  <View />
+  <View />
+</View>
+```
+
+> **Note:** CSS Grid is not supported in React Native. Use `flexDirection`, `flexWrap`, and `gap` to achieve grid-like layouts.
