@@ -4,7 +4,7 @@ A React Native app built with Expo for exploring patterns, components, and UI te
 
 The app is built around **Monstera Energy Drink**, a fictional energy drink brand used as a realistic commerce context. The brand gives the app a concrete domain — product menus, flavor detail pages, a shopping cart, rewards, and checkout — without requiring a real backend or live data. Everything is driven by a local mock server and static JSON fixtures, making it a self-contained environment for building and testing UI patterns that reflect real-world commerce app complexity.
 
-![developer mode demo - opening Storybook](https://raw.githubusercontent.com/chromatic-support/test-all-the-rn-things/main/assets/gif/dev-mode.gif)
+<img src="https://raw.githubusercontent.com/chromatic-support/test-all-the-rn-things/main/assets/gif/dev-mode.gif" height="600">
 
 ## TECH STACK
 
