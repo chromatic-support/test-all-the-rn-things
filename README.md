@@ -4,6 +4,8 @@ A React Native app built with Expo for exploring patterns, components, and UI te
 
 The app is built around **Monstera Energy Drink**, a fictional energy drink brand used as a realistic commerce context. The brand gives the app a concrete domain — product menus, flavor detail pages, a shopping cart, rewards, and checkout — without requiring a real backend or live data. Everything is driven by a local mock server and static JSON fixtures, making it a self-contained environment for building and testing UI patterns that reflect real-world commerce app complexity.
 
+![developer mode demo - opening Storybook](https://raw.githubusercontent.com/chromatic-support/testing-all-the-rn-things/main/assets/gif/dev-mode.gif)
+
 ## TECH STACK
 
 - **React Native** + **TypeScript**
@@ -83,14 +85,14 @@ This repo is set up to work well with AI coding agents (Claude Code, Cursor, Cop
 
 The `examples/` directory contains concrete, runnable code examples and `example-*.md` guidance files organized by topic. Before generating any new component, story, or data file, agents should check the relevant subdirectory:
 
-| Directory | What it covers |
-| --------- | -------------- |
-| `examples/components/` | React Native component patterns, button and card shapes, list and form screens |
-| `examples/components/forms/` | Form layout, `KeyboardAvoidingView`, input conventions |
-| `examples/components/overlays/` | Modal and drawer patterns |
-| `examples/stories/` | CSF story format, decorator usage, `useArgs` vs `useState` |
-| `examples/data/` | Mock data conventions, `.ts` vs `.json` file rules |
-| `examples/docs/` | Documentation conventions |
+| Directory                       | What it covers                                                                 |
+| ------------------------------- | ------------------------------------------------------------------------------ |
+| `examples/components/`          | React Native component patterns, button and card shapes, list and form screens |
+| `examples/components/forms/`    | Form layout, `KeyboardAvoidingView`, input conventions                         |
+| `examples/components/overlays/` | Modal and drawer patterns                                                      |
+| `examples/stories/`             | CSF story format, decorator usage, `useArgs` vs `useState`                     |
+| `examples/data/`                | Mock data conventions, `.ts` vs `.json` file rules                             |
+| `examples/docs/`                | Documentation conventions                                                      |
 
 Each subdirectory's `example-*.md` file lists general DO/DO NOT tips for that topic. Concrete file examples (e.g. `story-csf.example.tsx`) show the full, preferred shape of a given file type.
 
