@@ -201,8 +201,8 @@ Visual regression testing is handled by Chromatic. Build artifacts (`.apk`, `.ap
 | `npm run generate-manifest`       | Generate and filter `storybook-static/manifest.json`                                  |
 | `npm run clean:chromatic`         | Remove stale `.apk`, `.app`, and `storybook-static/`                                  |
 | `npm run chromatic`               | Upload `storybook-static/` to Chromatic                                               |
-| `npm run open:storybook:ios       | Open the built iOS Storybook for debugging                                            |
-| `npm run open:storybook:android   | Open the built Android Storybook for debugging                                        |
+| `npm run open:storybook:ios`      | Open the built iOS Storybook for debugging                                            |
+| `npm run open:storybook:android`  | Open the built Android Storybook for debugging                                        |
 
 ### WORKFLOW
 
