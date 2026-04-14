@@ -195,18 +195,20 @@ Visual regression testing is handled by Chromatic. Build artifacts (`.apk`, `.ap
 
 | Script                            | Description                                                                           |
 | --------------------------------- | ------------------------------------------------------------------------------------- |
-| `npm run build-chromatic`         | Full build: generate stories, build both platforms, generate manifest, prepare upload |
-| `npm run build-chromatic:ios`     | iOS-only build                                                                        |
-| `npm run build-chromatic:android` | Android-only build                                                                    |
+| `npm run build:chromatic`         | Full build: generate stories, build both platforms, generate manifest, prepare upload |
+| `npm run build:chromatic:ios`     | iOS-only build                                                                        |
+| `npm run build:chromatic:android` | Android-only build                                                                    |
 | `npm run generate-manifest`       | Generate and filter `storybook-static/manifest.json`                                  |
 | `npm run clean:chromatic`         | Remove stale `.apk`, `.app`, and `storybook-static/`                                  |
 | `npm run chromatic`               | Upload `storybook-static/` to Chromatic                                               |
+| `npm run open:storybook:ios       | Open the built iOS Storybook for debugging                                            |
+| `npm run open:storybook:android   | Open the built Android Storybook for debugging                                        |
 
 ### WORKFLOW
 
 ```sh
 npm run clean:chromatic
-npm run build-chromatic
+npm run build:chromatic
 npm run chromatic
 ```
 
@@ -214,7 +216,7 @@ To rebuild a single platform after a change:
 
 ```sh
 npm run clean:chromatic
-npm run build-chromatic:ios   # or :android
+npm run build:chromatic:ios   # or :android
 npm run chromatic
 ```
 
