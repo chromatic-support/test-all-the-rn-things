@@ -1,0 +1,29 @@
+{
+  "ignore_dirs": [
+    ".git",
+    "ios/build",
+    "ios/Pods",
+    "android/build",
+    "node_modules/@react-native-community/datetimepicker/android/build",
+    "node_modules/@react-native-community/slider/android/build",
+    "node_modules/@react-native/gradle-plugin/react-native-gradle-plugin/build",
+    "node_modules/@react-native/gradle-plugin/settings-plugin/build",
+    "node_modules/@react-native/gradle-plugin/shared/build",
+    "node_modules/expo/android/build",
+    "node_modules/expo-constants/android/build",
+    "node_modules/expo-modules-core/android/build",
+    "node_modules/expo-modules-core/android/.cxx",
+    "node_modules/expo-modules-core/expo-module-gradle-plugin/build",
+    "node_modules/react-native-gesture-handler/android/build",
+    "node_modules/react-native-gesture-handler/android/.cxx",
+    "node_modules/react-native-maps/android/build",
+    "node_modules/react-native-reanimated/android/build",
+    "node_modules/react-native-reanimated/android/.cxx",
+    "node_modules/react-native-safe-area-context/android/build",
+    "node_modules/react-native-screens/android/build",
+    "node_modules/react-native-screens/android/.cxx",
+    "node_modules/react-native-svg/android/build",
+    "node_modules/react-native-worklets/android/build",
+    "node_modules/react-native-worklets/android/.cxx"
+  ]
+}
